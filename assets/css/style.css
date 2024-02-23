@@ -1902,3 +1902,49 @@ avatar-box, .rounded-avatar, .rounded-avatar img {
   0 0 0 6px #ffffff,  /* Green layer */
   0 0 0 9px #000000;  /* Blue layer */
 }
+
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+.clients-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300%; /* Adjust based on layout preference */
+  max-width: 280px; /* Maximum width of each client logo container */
+}
+
+.clients-item img {
+  max-width: 300%;
+  max-height: 200px; /* Adjust the height to ensure logos are not too large */
+  object-fit: contain; /* This ensures the logo fits nicely within the dimensions without being stretched or squished */
+}
+
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust based on your layout */
+  justify-content: center; /* Center items horizontally */
+}
+
+.skills-item {
+  display: flex;
+  align-items: center; /* Align icon and text vertically */
+  gap: 10px; /* Space between icon and text */
+}
+
+.skills-item img {
+  width: 40px; /* Adjust size of the icons */
+  height: 40px; /* Adjust size of the icons */
+}
+
+.skills-item span {
+  color: white; /* Sets the text color to white */
+}
